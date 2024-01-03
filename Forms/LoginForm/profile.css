@@ -1,0 +1,53 @@
+.main-container{
+    display: flex;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    height: auto;
+    position: relative;
+}
+.profile-det-container{
+    flex: 50%;
+    width: 30%;
+    height: auto;
+    border: 0;
+    margin: 0;
+    padding: 2%;
+    
+    background-color: rgb(14, 9, 43);
+}
+.name-container,.email-container,.age-container,.medium-container{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3%;
+}
+.detail-other-container{
+    flex: 50%;
+    width: 70%;
+    height: 700px;
+    border: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 768px){
+    .main-container{
+        display: block;
+        width: 100%;
+        margin:0;
+        border:0;
+        padding:0;
+    }
+    .profile-det-container,.detail-other-container{
+        flex: none;
+        display: block;
+        width:96%;
+        margin:0;
+        border:0;
+        
+    }
+}
