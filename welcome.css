@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.carousel-container {
+    position: relative;
+    width: 95%;
+    margin: 50px auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.153);
+    border-radius: 18px ;
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 10%;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+
+.prev-btn,.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev-btn {
+    left: 10px;
+    background-color: #c2b8b8ba;
+    border-radius: 18px;
+    color: black;
+    transition: all 0.55s ease-in-out;
+    box-shadow: 0px 1px 1px 1px #0000004a;
+}
+.prev-btn:hover{
+    left: 7px;
+    background-color: white;
+}
+
+.next-btn {
+    right: 10px;
+    background-color: #c2b8b8ba;
+    border-radius: 18px;
+    color: black;
+    transition: all 0.55s ease-in-out;
+    box-shadow: 0px 1px 1px 1px #0000004a;
+}
+.next-btn:hover{
+    right: 7px;
+    background-color: white;
+}
+.btn{
+    font-size: large;
+    padding: 2%;
+    font-weight: bold;border-radius: 18px;
+    transition: all 0.75s ease-in-out;
+    border: 0;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.178);
+}
+.btn:hover{
+    background-color: rgb(122, 190, 122);
+    border-radius: 3px;
+}
+.btn:active{
+    background-color: rgb(30, 83, 30);
+    border-radius: 3px;
+}
