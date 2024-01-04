@@ -61,53 +61,12 @@
         border : 0;
         flex:0;
         
-    }
-    .login-buttons{
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        min-width: 100%;
-        text-align: center;
-    }
+    } 
     .login-button{
-        font-size: x-large;
-        padding: 2%;
-        border: 0;
-        border-radius: 12px;
-        background-color: rgb(85 178 68 / 84%);
-        margin: 0;
-        width: 200%;
-        font-weight: bold;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.285);
-        position: relative;
-        transition: background-color 1s ease-in-out;
-        transition: box-shadow 1s ease-in-out;
-    }
-    .login-button:hover{
-        background-color: #a0ddb1;
-        box-shadow: none;
+        width: 20%;
     }
     .register-button{
-        font-size: large;
-        padding: 2%;
-        border:0;
-        margin: 0;
-        border-radius: 12px;
-        background-color: #4a98d6;
-        width: 200%;
-        font-weight: bold;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        transition: all 2s ease-in-out;
-        transition: color 1s ease-in-out;
-        transition: opacity 1s ease-in-out;
-        opacity: 0;
-    }
-    
-    .register-button:hover{
-        background-color: rgb(42 109 27);
-        color:white
+        width: 25%;
     }
     .counting-details-div{
         display: flex;
