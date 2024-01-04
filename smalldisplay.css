@@ -54,13 +54,4 @@
     .institution-section-ad{
         height: 600px;
     }
-    .login-button{
-        right: 30px;
-        position: relative;
-    }
-    .register-button{
-        right: 30px;
-        color:white;
-        position: relative;
-    }
 }
